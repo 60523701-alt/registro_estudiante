@@ -1,0 +1,9 @@
+name: comprobar prograna python
+on: [push]
+jobs:
+    verificar:
+        runs-on: ubuntu-latest
+        steps:
+            - name: comprobar programa python
+            - uses: actions/checkout@v7
+            
