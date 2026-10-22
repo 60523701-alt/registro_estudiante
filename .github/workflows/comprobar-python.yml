@@ -38,8 +38,9 @@ jobs:
               run: python programa.py
 
               # PASO 6
-              # guardamos  la salida y comprobamos que el resultado sea 24
+      # Guardar la salida del programa y comprobar
+      # que contenga el resultado TOTAL: 24
             - name: Comprobar resultado esperado
               run: |
-                python programa.py > salida.txt
-                grep "TOTAL:24" salida.txt
+               python programa.py > salida.txt
+               grep "TOTAL: 24" salida.txt
