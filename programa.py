@@ -6,4 +6,4 @@ print(">>>CAFETERIA QUILLABAMBA<<<")
 print("Producto:", producto)
 print("Precio:", precio)
 print("Cantidad:", cantidad)
-print("Total:", total)
+print("Total:", total
